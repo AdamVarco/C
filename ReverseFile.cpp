@@ -22,8 +22,8 @@ int main(int argc, char** argv) {
         in.close();
        }
 for (std::vector<std::string>::const_iterator i = lines_in_reverse.begin(); i != lines_in_reverse.end(); ++i){
-    std::cout << *i <<"\n";
-    myfile << *i << "\n";
+    std::cout << *i <<std::endl;
+    myfile << *i << std::endl;
  }
     myfile.close();
     
